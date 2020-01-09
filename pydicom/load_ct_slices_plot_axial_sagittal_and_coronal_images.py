@@ -56,7 +56,7 @@ plt.imshow(img3d[:, img_shape[1]//2, :])
 a2.set_aspect(sag_aspect)
 
 a3 = plt.subplot(2, 2, 3)
-plt.imshow(img3d[img_shape[1]//2, :, :].T)
+plt.imshow(img3d[img_shape[0]//2, :, :].T)
 a3.set_aspect(cor_aspect)
 
 plt.show()
